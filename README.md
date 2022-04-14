@@ -15,7 +15,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-Music streaming server
+mStream is a personal music streaming server. You can use mStream to stream your music from your home computer to any device, anywhere.
 
 ### Features
 
