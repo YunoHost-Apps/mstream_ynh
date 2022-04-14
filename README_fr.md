@@ -47,8 +47,6 @@ Some long and extensive description of what the app is and does, lorem ipsum dol
 ## Documentations et ressources
 
 * Site officiel de l'app : https://mstream.io/
-* Documentation officielle utilisateur : https://yunohost.org/apps
-* Documentation officielle de l'admin : https://yunohost.org/packaging_apps
 * Dépôt de code officiel de l'app : https://github.com/IrosTheBeggar/mStream
 * Documentation YunoHost pour cette app : https://yunohost.org/app_mstream
 * Signaler un bug : https://github.com/YunoHost-Apps/mstream_ynh/issues
