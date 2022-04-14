@@ -1,0 +1,7 @@
+SOURCE_URL=https://github.com/IrosTheBeggar/mStream/archive/refs/tags/v5.11.4.tar.gz
+SOURCE_SUM=ed3b35c53ca1d9719b5e63e4abc63faac43c4a770dc17e4f39d151e0102f8661
+SOURCE_SUM_PRG=sha256sum
+SOURCE_FORMAT=tar.gz
+SOURCE_IN_SUBDIR=true
+SOURCE_FILENAME=
+SOURCE_EXTRACT=true
