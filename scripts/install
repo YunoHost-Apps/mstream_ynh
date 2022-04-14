@@ -134,6 +134,8 @@ ynh_script_progression --message="Installing $app..." --weight=25
 pushd $final_path
  	ynh_use_nodejs
 	ynh_exec_warn_less sudo -u $app env $ynh_node_load_PATH $ynh_npm install --only=prod
+	ynh_exec_warn_less sudo -u $app env $ynh_node_load_PATH $ynh_npm link
+	mstream -j $final_path/save/conf/default.json
 popd
 
 #=================================================
