@@ -51,8 +51,6 @@ Some long and extensive description of what the app is and does, lorem ipsum dol
 ## Documentation and resources
 
 * Official app website: https://mstream.io/
-* Official user documentation: https://yunohost.org/apps
-* Official admin documentation: https://yunohost.org/packaging_apps
 * Upstream app code repository: https://github.com/IrosTheBeggar/mStream
 * YunoHost documentation for this app: https://yunohost.org/app_mstream
 * Report a bug: https://github.com/YunoHost-Apps/mstream_ynh/issues
