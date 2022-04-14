@@ -110,6 +110,9 @@ ynh_app_setting_set --app=$app --key=datadir --value=$datadir
 
 mkdir -p $datadir
 
+mkdir -p $datadir/media/album-art
+mkdir -p $datadir/media/db
+
 chmod 750 "$datadir"
 chmod -R o-rwx "$datadir"
 chown -R $app:www-data "$datadir"
