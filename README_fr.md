@@ -15,11 +15,10 @@ Some long and extensive description of what the app is and does, lorem ipsum dol
 
 ### Features
 
-- Ut enim ad minim veniam, quis nostrud exercitation ullamco ;
-- Laboris nisi ut aliquip ex ea commodo consequat ;
-- Duis aute irure dolor in reprehenderit in voluptate ;
-- Velit esse cillum dolore eu fugiat nulla pariatur ;
-- Excepteur sint occaecat cupidatat non proident, sunt in culpa."
+    Cross Platform. Works on Windows, OSX, Linux, & FreeBSD
+    Light on memory and CPU
+    Tested on multi-terabyte libraries
+    Runs on ARM boards like the Raspberry Pi
 
 
 **Version incluse :** 5.11.4~ynh1
