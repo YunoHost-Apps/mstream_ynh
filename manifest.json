@@ -33,6 +33,12 @@
                 "type": "domain"
             },
             {
+                "name": "path",
+                "type": "path",
+                "example": "/mstream",
+                "default": "/mstream"
+            },
+            {
                 "name": "is_public",
                 "type": "boolean",
                 "default": true
