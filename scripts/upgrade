@@ -18,7 +18,6 @@ app=$YNH_APP_INSTANCE_NAME
 
 domain=$(ynh_app_setting_get --app=$app --key=domain)
 path_url=$(ynh_app_setting_get --app=$app --key=path)
-admin=$(ynh_app_setting_get --app=$app --key=admin)
 final_path=$(ynh_app_setting_get --app=$app --key=final_path)
 
 #=================================================
@@ -67,7 +66,7 @@ then
 	ynh_script_progression --message="Upgrading source files..." --time --weight=1
 
 	# Download, check integrity, uncompress and patch the source from app.src
-	ynh_setup_source --dest_dir="$final_path" --keep="$final_path/save/conf/default.conf"
+	ynh_setup_source --dest_dir="$final_path" --keep="$final_path/save/conf/default.json"
 fi
 
 chmod 750 "$final_path"
@@ -88,6 +87,7 @@ ynh_add_nginx_config
 ynh_script_progression --message="Upgrading dependencies..." --time --weight=1
 
 ynh_exec_warn_less ynh_install_nodejs --nodejs_version=$nodejs_version
+ynh_install_app_dependencies $pkg_dependencies
 
 #=================================================
 # SETUP SYSTEMD
