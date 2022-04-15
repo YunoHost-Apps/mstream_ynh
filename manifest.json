@@ -4,7 +4,7 @@
     "packaging_format": 1,
     "description": {
         "en": "Music streaming server",
-        "fr": "Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'objectif est de donner une idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)"
+        "fr": "Serveur de streaming musical"
     },
     "version": "5.11.4~ynh1",
     "url": "https://mstream.io/",
@@ -12,8 +12,6 @@
         "license": "AGPL-3.0-only",
         "website": "https://mstream.io/",
         "demo": "https://demo.mstream.io/?",
-        "admindoc": "https://yunohost.org/packaging_apps",
-        "userdoc": "https://yunohost.org/apps",
         "code": "https://github.com/IrosTheBeggar/mStream"
     },
     "license": "AGPL-3.0-only",
