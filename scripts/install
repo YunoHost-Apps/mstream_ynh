@@ -67,8 +67,6 @@ ynh_app_setting_set --app=$app --key=port --value=$port
 #=================================================
 ynh_script_progression --message="Installing dependencies..." --weight=15
 
-ynh_exec_warn_less ynh_install_nodejs --nodejs_version=$nodejs_version
-
 ynh_install_app_dependencies $pkg_dependencies
 
 #=================================================
@@ -91,6 +89,7 @@ ynh_setup_source --dest_dir="$final_path"
 chmod 750 "$final_path"
 chmod -R o-rwx "$final_path"
 chown -R $app:www-data "$final_path"
+chmod +x "$final_path/mStream.AppImage"
 
 #=================================================
 # NGINX CONFIGURATION
@@ -127,16 +126,6 @@ chmod 650 "$final_path/save/conf/default.json"
 chown $app:$app "$final_path/save/conf/default.json"
 
 #=================================================
-# INSTALLING MSTREAM
-#=================================================
-ynh_script_progression --message="Installing $app..." --weight=25
-
-pushd $final_path
- 	ynh_use_nodejs
-	ynh_exec_warn_less sudo -u $app env $ynh_node_load_PATH $ynh_npm install --only=prod
-popd
-
-#=================================================
 # SETUP SYSTEMD
 #=================================================
 ynh_script_progression --message="Configuring a systemd service..." --weight=1
@@ -144,16 +133,6 @@ ynh_script_progression --message="Configuring a systemd service..." --weight=1
 env_path=$PATH
 # Create a dedicated systemd config
 ynh_add_systemd_config
-
-#=================================================
-# GENERIC FINALIZATION
-#=================================================
-# SETUP LOGROTATE
-#=================================================
-ynh_script_progression --message="Configuring log rotation..." --weight=1
-
-# Use logrotate to manage application logfile(s)
-ynh_use_logrotate
 
 #=================================================
 # INTEGRATE SERVICE IN YUNOHOST
