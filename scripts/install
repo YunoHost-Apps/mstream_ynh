@@ -67,7 +67,7 @@ ynh_app_setting_set --app=$app --key=port --value=$port
 #=================================================
 ynh_script_progression --message="Installing dependencies..." --weight=15
 
-ynh_exec_warn_less ynh_install_nodejs --nodejs_version=$nodejs_version
+#ynh_exec_warn_less ynh_install_nodejs --nodejs_version=$nodejs_version
 
 ynh_install_app_dependencies $pkg_dependencies
 
@@ -132,24 +132,24 @@ chown $app:$app "$final_path/default.json"
 #=================================================
 ynh_script_progression --message="Configuring a systemd service..." --weight=1
 
-env_path=$PATH
+#env_path=$PATH
 # Create a dedicated systemd config
-ynh_add_systemd_config
+#ynh_add_systemd_config
 
 #=================================================
 # INTEGRATE SERVICE IN YUNOHOST
 #=================================================
-ynh_script_progression --message="Integrating service in YunoHost..." --weight=3
+#ynh_script_progression --message="Integrating service in YunoHost..." --weight=3
 
-yunohost service add $app --description="Music streaming server" --log="/var/log/$app/$app.log"
+#yunohost service add $app --description="Music streaming server" --log="/var/log/$app/$app.log"
 
 #=================================================
 # START SYSTEMD SERVICE
 #=================================================
-ynh_script_progression --message="Starting a systemd service..." --weight=1
+#ynh_script_progression --message="Starting a systemd service..." --weight=1
 
 # Start a systemd service
-ynh_systemd_action --service_name=$app --action="start" --log_path="systemd"
+#ynh_systemd_action --service_name=$app --action="start" --log_path="systemd"
 
 #=================================================
 # SETUP SSOWAT
