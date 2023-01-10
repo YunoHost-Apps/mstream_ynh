@@ -9,7 +9,7 @@ Group=__APP__
 Environment=NODE_PORT=__PORT__
 WorkingDirectory=__FINALPATH__/
 Environment="PATH=__ENV_PATH__"
-ExecStart=__FINALPATH__/mStream.AppImage -j __FINALPATH__/default.json
+ExecStart=__YNH_NODE__ __FINALPATH__/mStream/cli-boot-wrapper.js
 Restart=on-failure
 
 [Install]
