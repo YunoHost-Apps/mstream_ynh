@@ -46,7 +46,7 @@ ram.runtime = "50M"
     [resources.install_dir]
 
     [resources.data_dir]
-    sudirs = ["/media/album-art", "/media/db"]
+    sudirs = ["album-art", "db", "logs"]
 
     [resources.permissions]
     main.url = "/"
