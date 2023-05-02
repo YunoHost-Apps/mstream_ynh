@@ -13,7 +13,7 @@
   },
   "storage": {
     "albumArtDirectory": "__DATA_DIR__/album-art",
-    "dbDirectory": "__DATA_DIR__db",
+    "dbDirectory": "__DATA_DIR__/db",
     "logsDirectory": "__DATA_DIR__/logs"
   },
   "transcode": {
