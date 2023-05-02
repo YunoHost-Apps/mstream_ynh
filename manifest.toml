@@ -12,7 +12,7 @@ maintainers = ["eric_G"]
 [upstream]
 license = "AGPL-3.0-only"
 website = "https://mstream.io/"
-demo = "https://demo.mstream.io/?"
+demo = "https://demo.mstream.io/"
 code = "https://github.com/IrosTheBeggar/mStream"
 
 [integration]
