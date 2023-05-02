@@ -5,15 +5,16 @@ It shall NOT be edited by hand.
 
 # mStream pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/mstream.svg)](https://dash.yunohost.org/appci/app/mstream) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/mstream.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/mstream.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/mstream.svg)](https://dash.yunohost.org/appci/app/mstream) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/mstream.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/mstream.maintain.svg)
+
 [![Installer mStream avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mstream)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer mStream rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer mStream rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 mStream is a personal music streaming server. You can use mStream to stream your music from your home computer to any device, anywhere.
 
@@ -29,14 +30,14 @@ mStream is a personal music streaming server. You can use mStream to stream your
 
 **Démo :** https://demo.mstream.io/?
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de mStream](./doc/screenshots/mstreamv5.png)
+![Capture d’écran de mStream](./doc/screenshots/mstreamv5.png)
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://mstream.io/>
-* Dépôt de code officiel de l'app : <https://github.com/IrosTheBeggar/mStream>
+* Site officiel de l’app : <https://mstream.io/>
+* Dépôt de code officiel de l’app : <https://github.com/IrosTheBeggar/mStream>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_mstream>
 * Signaler un bug : <https://github.com/YunoHost-Apps/mstream_ynh/issues>
 
@@ -52,4 +53,4 @@ ou
 sudo yunohost app upgrade mstream -u https://github.com/YunoHost-Apps/mstream_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
