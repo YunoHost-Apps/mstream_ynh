@@ -9,7 +9,7 @@ Group=__APP__
 Environment=NODE_PORT=__PORT__
 WorkingDirectory=__INSTALL_DIR__/
 Environment="PATH=__ENV_PATH__"
-ExecStart=__YNH_NODE__ __INSTALL_DIR__/mStream/cli-boot-wrapper.js
+ExecStart=__YNH_NODE__ __INSTALL_DIR__/cli-boot-wrapper.js
 Restart=on-failure
 
 [Install]

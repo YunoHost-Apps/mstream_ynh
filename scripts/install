@@ -32,7 +32,6 @@ ynh_setup_source --dest_dir="$install_dir"
 
 chmod -R o-rwx "$install_dir"
 chown -R $app:www-data "$install_dir"
-chmod +x "$install_dir/mStream.AppImage"
 
 #=================================================
 # NGINX CONFIGURATION
@@ -59,7 +58,7 @@ ynh_script_progression --message="Configuring the app..." --weight=10
 
 pushd $install_dir
 	ynh_use_nodejs
-	ynh_exec_warn_less $ynh_npm run-script wizard
+	ynh_exec_warn_less $ynh_npm install --only=prod
 popd
 
 #=================================================
