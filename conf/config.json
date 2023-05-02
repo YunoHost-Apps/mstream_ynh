@@ -1,6 +1,5 @@
 {
   "port": __PORT__,
-  "webAppDirectory": "public",
   "secret": "__KEY__",
   "writeLogs": true,
   "noUpload": false,
@@ -12,9 +11,9 @@
     "bootScanDelay": 15
   },
   "storage": {
-    "albumArtDirectory": "__DATADIR__/media/album-art",
-    "dbDirectory": "__DATADIR__/media/db",
-    "logsDirectory": "__DATADIR__/media/logs"
+    "albumArtDirectory": "__DATA_DIR__/album-art",
+    "dbDirectory": "__DATA_DIR__/db",
+    "logsDirectory": "__DATA_DIR__/logs"
   },
   "transcode": {
     "enabled": true,
