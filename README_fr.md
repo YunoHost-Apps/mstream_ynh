@@ -27,7 +27,7 @@ mStream is a personal music streaming server. You can use mStream to stream your
 
 **Version incluse :** 5.11.4~ynh1
 
-**Démo :** https://demo.mstream.io/?
+**Démo :** https://demo.mstream.io/
 
 ## Captures d’écran
 
