@@ -1,6 +1,0 @@
-SOURCE_URL=https://github.com/IrosTheBeggar/mStream/releases/download/v5.11.4/mStream-Server-5.11.4.AppImage
-SOURCE_SUM=35e8ddc0c0ecda4ad6c21259ed9bd611af92c23d714440e976f4bb4569082d4b
-SOURCE_SUM_PRG=sha256sum
-SOURCE_IN_SUBDIR=false
-SOURCE_FILENAME=mStream.AppImage
-SOURCE_EXTRACT=false
