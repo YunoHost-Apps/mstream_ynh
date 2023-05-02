@@ -58,7 +58,7 @@ ynh_script_progression --message="Configuring the app..." --weight=10
 
 pushd $install_dir
 	ynh_use_nodejs
-	ynh_exec_warn_less $ynh_npm install --only=prod
+	ynh_exec_warn_less $ynh_npm install --omit=dev
 popd
 
 #=================================================
