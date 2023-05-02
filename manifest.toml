@@ -38,7 +38,6 @@ ram.runtime = "50M"
         [resources.sources.main]
         url = "https://github.com/IrosTheBeggar/mStream/releases/download/v5.11.4/mStream-Server-5.11.4.AppImage"
         sha256 = "35e8ddc0c0ecda4ad6c21259ed9bd611af92c23d714440e976f4bb4569082d4b"
-        in_subdir = false
 
     [resources.ports]
 
