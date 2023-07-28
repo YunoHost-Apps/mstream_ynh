@@ -16,14 +16,13 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ## Vue d’ensemble
 
-mStream is a personal music streaming server. You can use mStream to stream your music from your home computer to any device, anywhere.
+mStream est un serveur de streaming musical personnel. Vous pouvez utiliser mStream pour diffuser votre musique depuis votre ordinateur personnel vers n'importe quel appareil, n'importe où.
 
-### Features
+### Caractéristiques
 
-- Light on memory and CPU
-- Tested on multi-terabyte libraries
-- Runs on ARM boards like the Raspberry Pi
-
+- Économe en mémoire et en CPU
+- Testé sur des bibliothèques multi-téraoctets
+- Fonctionne sur des cartes ARM comme le Raspberry Pi
 
 **Version incluse :** 5.11.4~ynh1
 

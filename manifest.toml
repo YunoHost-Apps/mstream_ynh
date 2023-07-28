@@ -16,7 +16,7 @@ demo = "https://demo.mstream.io/"
 code = "https://github.com/IrosTheBeggar/mStream"
 
 [integration]
-yunohost = ">= 11.1.18"
+yunohost = ">= 11.1.19"
 architectures = "all"
 multi_instance = true
 ldap = false
