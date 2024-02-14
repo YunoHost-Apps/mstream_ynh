@@ -37,7 +37,7 @@ mStream is a personal music streaming server. You can use mStream to stream your
 
 * Official app website: <https://mstream.io/>
 * Upstream app code repository: <https://github.com/IrosTheBeggar/mStream>
-* YunoHost documentation for this app: <https://yunohost.org/app_mstream>
+* YunoHost Store: <https://apps.yunohost.org/app/mstream>
 * Report a bug: <https://github.com/YunoHost-Apps/mstream_ynh/issues>
 
 ## Developer info

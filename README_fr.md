@@ -36,7 +36,7 @@ mStream est un serveur de streaming musical personnel. Vous pouvez utiliser mStr
 
 * Site officiel de l’app : <https://mstream.io/>
 * Dépôt de code officiel de l’app : <https://github.com/IrosTheBeggar/mStream>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_mstream>
+* YunoHost Store: <https://apps.yunohost.org/app/mstream>
 * Signaler un bug : <https://github.com/YunoHost-Apps/mstream_ynh/issues>
 
 ## Informations pour les développeurs
