@@ -25,7 +25,7 @@ mStream is a personal music streaming server. You can use mStream to stream your
 - Runs on ARM boards like the Raspberry Pi
 
 
-**Versión proporcionada:** 5.11.4~ynh1
+**Versión proporcionada:** 5.11.4~ynh2
 
 **Demo:** <https://demo.mstream.io/>
 
