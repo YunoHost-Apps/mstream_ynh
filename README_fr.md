@@ -24,7 +24,7 @@ mStream est un serveur de streaming musical personnel. Vous pouvez utiliser mStr
 - Testé sur des bibliothèques multi-téraoctets
 - Fonctionne sur des cartes ARM comme le Raspberry Pi
 
-**Version incluse :** 5.11.4~ynh2
+**Version incluse :** 5.12.0~ynh1
 
 **Démo :** <https://demo.mstream.io/>
 
