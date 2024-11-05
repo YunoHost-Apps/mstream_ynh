@@ -5,7 +5,7 @@ No se debe editar a mano.
 
 # mStream para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/mstream.svg)](https://dash.yunohost.org/appci/app/mstream) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/mstream.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/mstream.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/mstream.svg)](https://ci-apps.yunohost.org/ci/apps/mstream/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/mstream.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/mstream.maintain.svg)
 
 [![Instalar mStream con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mstream)
 
@@ -25,7 +25,7 @@ mStream is a personal music streaming server. You can use mStream to stream your
 - Runs on ARM boards like the Raspberry Pi
 
 
-**Versión actual:** 5.12.2~ynh1
+**Versión actual:** 5.12.2~ynh2
 
 **Demo:** <https://demo.mstream.io/>
 
@@ -42,7 +42,7 @@ mStream is a personal music streaming server. You can use mStream to stream your
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/mstream_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/mstream_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
