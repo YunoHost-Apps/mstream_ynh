@@ -5,7 +5,9 @@
 
 # YunoHost 上的 mStream
 
-[![集成程度](https://dash.yunohost.org/integration/mstream.svg)](https://ci-apps.yunohost.org/ci/apps/mstream/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/mstream.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/mstream.maintain.svg)
+[![集成程度](https://apps.yunohost.org/badge/integration/mstream)](https://ci-apps.yunohost.org/ci/apps/mstream/)
+![工作状态](https://apps.yunohost.org/badge/state/mstream)
+![维护状态](https://apps.yunohost.org/badge/maintained/mstream)
 
 [![使用 YunoHost 安装 mStream](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mstream)
 
@@ -25,7 +27,7 @@ mStream is a personal music streaming server. You can use mStream to stream your
 - Runs on ARM boards like the Raspberry Pi
 
 
-**分发版本：** 5.12.2~ynh2
+**分发版本：** 5.13.1~ynh1
 
 **演示：** <https://demo.mstream.io/>
 
