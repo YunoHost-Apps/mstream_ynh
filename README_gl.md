@@ -5,7 +5,9 @@ NON debe editarse manualmente.
 
 # mStream para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/mstream.svg)](https://dash.yunohost.org/appci/app/mstream) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/mstream.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/mstream.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/mstream)](https://ci-apps.yunohost.org/ci/apps/mstream/)
+![Estado de funcionamento](https://apps.yunohost.org/badge/state/mstream)
+![Estado de mantemento](https://apps.yunohost.org/badge/maintained/mstream)
 
 [![Instalar mStream con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mstream)
 
@@ -25,7 +27,7 @@ mStream is a personal music streaming server. You can use mStream to stream your
 - Runs on ARM boards like the Raspberry Pi
 
 
-**Versión proporcionada:** 5.12.2~ynh1
+**Versión proporcionada:** 5.13.1~ynh1
 
 **Demo:** <https://demo.mstream.io/>
 
