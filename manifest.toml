@@ -16,14 +16,17 @@ demo = "https://demo.mstream.io/"
 code = "https://github.com/IrosTheBeggar/mStream"
 
 [integration]
-yunohost = ">= 11.2"
+yunohost = ">= 12.1.17"
+helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
+
 ldap = false
 sso = false
-disk = "50M"
-ram.build = "50M"
-ram.runtime = "50M"
+
+disk = "480M"
+ram.build = "350M"
+ram.runtime = "450M"
 
 [install]
     [install.domain]
@@ -53,3 +56,7 @@ ram.runtime = "50M"
 
     [resources.apt]
     packages = "ffmpeg"
+
+    [resources.nodejs]
+    version = "18"
+    
