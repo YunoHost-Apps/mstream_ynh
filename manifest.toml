@@ -58,5 +58,5 @@ ram.runtime = "450M"
     packages = "ffmpeg"
 
     [resources.nodejs]
-    version = "18"
+    version = "22"
     
