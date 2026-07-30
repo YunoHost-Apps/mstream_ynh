@@ -5,7 +5,7 @@ name = "mStream"
 description.en = "Music streaming server"
 description.fr = "Serveur de streaming musical"
 
-version = "6.12.0~ynh1"
+version = "6.19.1~ynh1"
 
 maintainers = []
 
@@ -38,8 +38,8 @@ ram.runtime = "450M"
 
 [resources]
         [resources.sources.main]
-        url = "https://github.com/IrosTheBeggar/mStream/archive/refs/tags/v6.12.0.tar.gz"
-        sha256 = "3766ab756ac820837880679f2f854de4ddf0fdbfa3c8bf01400c73ab6382be82"
+        url = "https://github.com/IrosTheBeggar/mStream/archive/refs/tags/v6.19.1.tar.gz"
+        sha256 = "f6aee06993d7582be49082c33112bf22cd35e4ec374b3aee386b39dbb7a1a285"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.ports]
