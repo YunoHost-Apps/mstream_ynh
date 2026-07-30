@@ -17,7 +17,7 @@
   },
   "transcode": {
     "enabled": true,
-    "ffmpegDirectory": "/usr/bin/ffmpeg",
+    "ffmpegDirectory": "/usr/bin",
     "defaultCodec": "opus",
     "defaultBitrate": "128k"
   }
